@@ -317,7 +317,7 @@ section .card-item {
 .features {
     width: 100%;
     height: 100%;
-    background: var(--gray);
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -326,6 +326,15 @@ section .card-item {
 
 .title-wrapper-features {
     padding: 20px 0px;
+}
+
+.title-wrapper-features p {
+    color: white;
+    text-align: left;    
+}
+
+.title-wrapper-features h3 {
+    color: white;
 }
 
 .feature-card-block {
