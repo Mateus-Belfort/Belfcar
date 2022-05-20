@@ -19,13 +19,14 @@ html,
 body {
     width: 100%;
     overflow-x: hidden;
+    background: var(--orange);
 
 }
 
 header {
     width: 100%;
     height: 500px;
-    background: var(--orange);
+    background: #000000;
 }
 
 .content {
@@ -49,7 +50,7 @@ nav {
 
 .brand {
     font-size: 24px;
-    color: var(--blue);
+    color: white;
     cursor: pointer;
 }
 
@@ -67,38 +68,38 @@ nav ul li  {
 }
 
 nav ul li a {
-    color: var(--blue);
+    color: white;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    color: #00285f83;
+    color: var(--orange);
 
 }
 
 nav ul button {
-    border: 1px solid var(--blue);
-    background: transparent;
+    border: 1px solid white;
+    background: var(--gray);
     padding: 8px 40px;
     cursor: pointer;
     margin-left: 30px;
-    color: var(--blue);
+    color: black;
     font-weight: bold;
     border-radius: 4px;
 }
 
 nav ul button:hover {
-    transition: background, color 0.6s;
-    background: var(--blue);
-    color: white;
+    transition: background, color 0.2s;
+    background: var(--gray);
+    color: var(--orange);
 
 }
 
 .content .header-block {
     max-width: 1000px;
     min-width: 300px;
-    height: 450px;
-    background: var(--blue);
+    height: 500px;
+    background: white;
     border-radius: 8px;
     box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -109,7 +110,7 @@ nav ul button:hover {
 }
 
 .header-block img {
-    width: 50%;
+    width: 80%;
     position: absolute;
     right: 2%;
     bottom: 2%;
@@ -117,22 +118,22 @@ nav ul button:hover {
 
 .header-block .text {
     position: absolute;
-    bottom: 30%;
-    left: 15%;
+    bottom: 70%;
+    left: 10%;
 }
 
 .header-block .text h2 {
-    color: white;
+    color: black;   
     margin-bottom: 20px;
-    text-align: right;
+    text-align: left;
     transform: translateX(-20px);
     transition: transform 0.5s;
 }
 
 .header-block .text p {
     max-width: 280px;
-    color: white;
-    text-align: right;  
+    color: black;
+    text-align: left;  
     transform: translateX(-20px);
     transition: transform 0.4s;
 }
@@ -183,7 +184,7 @@ section .filter-card {
 
 .title-wrapper-catalog {
     margin-top: 200px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;    
 
 }
 
@@ -215,7 +216,7 @@ section .card-item {
 }
 
 .card-item img {
-    width: 85%;
+    width: 38%;
 }
 
 .card-item h4 {
@@ -234,7 +235,7 @@ section .card-item {
     border: none;
     background: var(--blue);
     border-radius: 4px;
-    color: white;
+    color: var(--orange);
     font-weight: bold;
     font-size: 1.1em;
     cursor: pointer;
@@ -277,8 +278,14 @@ section .card-item {
     width: 25%;
     min-width: 300px;
     height: 100%;
-    background: #000000a1;
+    background: none;
     border-radius: 8px;
+}
+
+.left img {
+    width: 50%;
+    min-width: 300px;
+    height: 100%;
 }
 
 .rigth {
